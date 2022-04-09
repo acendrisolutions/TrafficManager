@@ -5,10 +5,10 @@
 // Global Variables
 
 param globalVariables object = {
-  onpremTargetStatus: 'Disabled'
-  azureTargetStatus: 'Enabled'
+  onpremTargetStatus: 'Enabled'
+  azureTargetStatus: 'Disabled'
   trafficRoutingMethod: 'Priority'
-  environmentTag: 'Development'
+  environmentTag: 'UAT'
 }
 
 
@@ -16,25 +16,25 @@ param globalVariables object = {
 
 var profiles = [
   {
-    profileName: 'aimages-uat-autopremier-com'
-    dnsConfigRelativeName: 'aimages-uat.cudirect.com'
+    profileName: 'aimages-uat-domain-com'
+    dnsConfigRelativeName: 'aimages-uat.domain.com'
     onpremTargetIP: '1.1.1.1'
     azureTargetIP: '2.2.2.2'
-    applicationTag: 'L360'
+    applicationTag: 'webApp1'
   }
   {
-    profileName: 'aiintweb-uat-autopremier-com'
-    dnsConfigRelativeName: 'aiintweb-uat.cudirect.com'
+    profileName: 'aiintweb-uat-domain-com'
+    dnsConfigRelativeName: 'aiintweb-uat.domain.com'
     onpremTargetIP: '3.3.3.3'
     azureTargetIP: '4.4.4.4'
-    applicationTag: 'L360'
+    applicationTag: 'webApp2'
   }
   {
-    profileName: 'aabintweb-uat-autopremier-com'
-    dnsConfigRelativeName: 'aabintweb-uat.cudirect.com'
+    profileName: 'aabintweb-uat-domain-com'
+    dnsConfigRelativeName: 'aabintweb-uat.domain.com'
     onpremTargetIP: '5.5.5.5'
     azureTargetIP: '6.6.6.6'
-    applicationTag: 'L360'
+    applicationTag: 'webApp3'
   }
 ]
  
