@@ -16,22 +16,22 @@ param globalVariables object = {
 
 var profiles = [
   {
-    profileName: 'aimages-uat-domain-com'
-    dnsConfigRelativeName: 'aimages-uat.domain.com'
+    profileName: 'website1-uat-domain-com'
+    dnsConfigRelativeName: 'website1-uat.domain.com'
     onpremTargetIP: '1.1.1.1'
     azureTargetIP: '2.2.2.2'
     applicationTag: 'webApp1'
   }
   {
-    profileName: 'aiintweb-uat-domain-com'
-    dnsConfigRelativeName: 'aiintweb-uat.domain.com'
+    profileName: 'website2-uat-domain-com'
+    dnsConfigRelativeName: 'website2-uat.domain.com'
     onpremTargetIP: '3.3.3.3'
     azureTargetIP: '4.4.4.4'
     applicationTag: 'webApp2'
   }
   {
-    profileName: 'aabintweb-uat-domain-com'
-    dnsConfigRelativeName: 'aabintweb-uat.domain.com'
+    profileName: 'website3-uat-domain-com'
+    dnsConfigRelativeName: 'website3-uat.domain.com'
     onpremTargetIP: '5.5.5.5'
     azureTargetIP: '6.6.6.6'
     applicationTag: 'webApp3'
